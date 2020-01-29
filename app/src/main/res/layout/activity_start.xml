@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startdark"
+    android:padding="10dp"
+    android:id="@+id/Main"
+    tools:context=".Start">
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/settingsdark"
+        android:onClick="Settings"
+        android:id="@+id/Setting"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="52.63dp"
+        android:layout_marginTop="9dp"
+        android:text="Start"
+        android:textColor="#e2e1ed"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/Start"
+        android:background="#2a2929"
+        android:onClick="Start"
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="52.63dp"
+        android:layout_marginTop="9dp"
+        android:text="Levels"
+        android:textColor="#e2e1ed"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/Start"
+        app:layout_constraintBottom_toTopOf="@id/Restart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Levels"
+        android:background="#2a2929"
+        android:onClick="Levels"
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="52.63dp"
+        android:layout_marginBottom="80dp"
+        android:text="Restart"
+        android:textColor="#e2e1ed"
+        android:textSize="30dp"
+        app:layout_constraintTop_toBottomOf="@id/Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/Restart"
+        android:background="#2a2929"
+        android:onClick="Restart"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

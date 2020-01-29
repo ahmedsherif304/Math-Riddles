@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Math Riddles</string>
+    <string name="Mode_Message">Dark Mode</string>
+    <string name="Hint_Message">This hint will cost you 5 coins</string>
+    <string name="Sound_Message">Sound</string>
+    <string name="Home_Message">Are you Sure you want tot go to the Home menu?</string>
+    <string name="Levels">Levels Menu</string>
+    <string name="Pass_Message">You have got the right answer would you like to go to the next level or return to the Levels Menu</string>
+    <string name="Home">Home</string>
+    <string name="Next_Level">Next Level</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Agree">Agree</string>
+    <string name="Discard">Discard</string>
+    <string name="On">ON</string>
+    <string name="Off">OFF</string>
+</resources>
